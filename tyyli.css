@@ -1,0 +1,138 @@
+/*
+div {
+  border:1px;
+  border-color:black
+  border-style; solid:
+  
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+html.body {
+margin: 0;
+padding:0;
+font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #614747;
+}
+
+.active {
+  background-color: #e1ba7c;
+}
+
+header {
+  background-image: url("tietokone.jpg");
+  backgroud-position:center;
+  background-size:cover;
+}
+
+  img {
+    width: 100%;
+    height: auto;
+}
+
+
+.Villen IT-apu Aurinkorannikolla - PALVELUT {
+  background-image:url("business.jpg");
+  background position:cnter;
+  background-size:cover;
+}
+.Villen IT-apu Aurinkorannikolla - MEISTÄ {
+  background-image:url("tiimi.jpg");
+}
+header h1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 0px;
+  color:#e2cdac;
+  padding: 15px 20px 20px 15px;
+ 
+}
+
+section {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.lead {
+  font-size: 25px;
+  color: #c78925
+  
+}
+
+.quote {
+  font-size: 35px;
+  color: #c78925
+  text-align center;
+  padding: 30px;
+}
+
+section img {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+footer {
+ background-color:#e2cdac;
+ margin-top: 40px;
+ 
+}
+
+footer p {
+  text-align: center; 
+  margin:0px;
+  padding: 5px;
+ 
+@media only screen and (min-width 650px)    {
+  section {
+    width: 75%;
+}
+header h1 {
+  padding: 200px, 10px, 200px, 10px;
+}
+.quote {
+  font-size: 40px;
+}
+}
+@media only screen and (min-width 1025px)    {
+  section {
+    width: 75%;
+    
+    
+}
+header h1 {
+    font-size: 70px;}
+ }
+
+
+
+
+
+
+
+
+
